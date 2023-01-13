@@ -1,0 +1,122 @@
+@charset 'utf-8';
+
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.weather{
+    height: 5vh;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.weather>span{
+    margin-right: 20px;
+    color: white;
+    font-size: 1vw;
+}
+/* ********** header fin ********** */
+
+/* main */
+.contents{
+    width: 100%;
+    height: 90vh;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+
+.todo{
+    width: 50%;
+    height: 25vw;
+    margin: 0 10px 0 10px;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+    border-radius: 10%;
+}
+
+.wrap_inp{
+    width: 100%;
+}
+
+.inp{
+    width: 70%;
+    height: 5vh;
+    border: 0;
+    border-bottom: 2px solid white;
+    border-radius: 20%;
+    background-color: transparent;
+    outline: none;
+    font-size: 2vw;
+    color: aliceblue;
+}
+
+/* :: 가상요소 선택 */
+.inp::placeholder{
+    font-size: 1.8vw;
+    color: white;
+    text-align: center;
+   
+  
+}
+
+.clock{
+    height: 30%;
+}
+
+.welcome{
+    font-size: 3vw;
+}
+
+.time{
+    font-size: 2vw;
+}
+
+.user{
+    font-size: 2vw;
+}
+
+.logout{
+    padding: 3px;
+    margin-left: 10px;
+    background-color: rgb(237, 153, 188);
+    border-radius: 5px;
+    font-size: 1.5vw;
+}
+
+.todo-list{
+    flex-wrap: wrap;
+    width: 50%;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+
+.item{
+    padding: 10px;
+    margin: 5px;
+    font-size: 1.5vw;
+    padding: 20px;
+    font-weight: border;
+    background-color: rgb(192, 161, 233);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.fa-trash-can{
+    color: rgb(94, 99, 248);
+}
+
+/* main fin */
+
+.bg-location{
+    height: 5vh;
+
+}
+
+.bg-location>span{
+    margin-left: 10px;
+    color: white;
+    font-size: 1vw;
+}
